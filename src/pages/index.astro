@@ -1,0 +1,20 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Bienvenida from '../components/Bienvenida.astro';
+import Funciones from '../components/Funciones.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main>
+		<Bienvenida/>
+		<Funciones/>
+	</main>
+</Layout>
+
+<style>
+	body{
+		padding: 0;
+		margin: 0;
+	}
+</style>
